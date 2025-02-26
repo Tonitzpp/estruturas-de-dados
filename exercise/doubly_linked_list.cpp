@@ -1,6 +1,11 @@
 #include "../include/doubly_linked_list.hpp"
 
+
 int main(int argc, char const* argv[]) {
-  /* code */
+  DoublyLinkedList<int>list;
+
+  (list.pop_front());
+ 
+
   return 0;
 }
